@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">mysqldemotwo</string>
+
+    <string-array name="Themes">
+        <item>Theme Selection</item>
+        <item>Original Theme</item>
+        <item>Dark Theme</item>
+        <item>Vibrant Theme</item>
+    </string-array>
+
+    <color name="blue">#00BFFF</color>
+    <color name="orange">#FFA500</color>
+    <color name="grey">#808080</color>
+    <color name="black">#000000</color>
+    <color name="pink">#FFC0CB</color>
+    <color name="white">#FFFFFF</color>
+
+
+</resources>

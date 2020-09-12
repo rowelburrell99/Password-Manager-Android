@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.mysqldemotwo">
+<uses-permission android:name="android.permission.INTERNET"></uses-permission>
+<uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        android:usesCleartextTraffic="true">
+        <activity android:name=".OriginalTheme.GUI"></activity>
+        <activity android:name=".OriginalTheme.Reset"/>
+        <activity android:name=".OriginalTheme.Hint"/>
+        <activity android:name=".OriginalTheme.Register" />
+        <activity android:name=".VibrantTheme.VibrantMain" />
+        <activity android:name=".VibrantTheme.VibrantGUI" />
+        <activity android:name=".VibrantTheme.VibrantReset" />
+        <activity android:name=".VibrantTheme.VibrantRegister" />
+        <activity android:name=".VibrantTheme.VibrantHint" />
+        <activity android:name=".DarkTheme.DarkMain" />
+        <activity android:name=".DarkTheme.DarkGUI" />
+        <activity android:name=".DarkTheme.DarkReset" />
+        <activity android:name=".DarkTheme.DarkRegister" />
+        <activity android:name=".DarkTheme.DarkHint" />
+        <activity android:name=".OriginalTheme.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
